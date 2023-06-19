@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- title -->
+    <h2><i> My Customers</i></h2>
+    <!-- Modal content -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span id="closeButtonForModal" class="close">&times;</span>
+            <h2>Modal Header</h2>
+          </div>
+          <div class="modal-body">
+            <p>Some text in the Modal Body</p>
+            <p>Some other text...</p>
+          </div>
+          <div class="modal-footer">
+            <h3>Modal Footer</h3>
+          </div>
+        </div>
+    </div>
+      <!-- searchInput -->
+<!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"> -->
+<input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search for names.." title="Type in a name">
+
+<!-- table -->
+<table id="myTable">
+  <thead>
+     <tr class="header">
+        <th style="width:60%;">Name</th>
+        <th style="width:40%;">Country</th>
+      </tr>
+  </thead>
+  <tbody id="usersTableBody"></tbody>
+
+</table>
+    <!-- pagination -->
+    <div id="pagination" class="pagination"></div>
+
+    <script src="./script/index.js" type="module"></script>
+</body>
+</html>
