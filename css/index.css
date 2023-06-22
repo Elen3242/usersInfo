@@ -3,6 +3,7 @@
 }
 
 #myInput {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   background-position: 10px 10px;
   background-repeat: no-repeat;
   width: 100%;
@@ -47,13 +48,14 @@ body {
 
 /* The Modal (background) */
 .modal {
+  
   display: none;
   /* Hidden by default */
   position: fixed;
   /* Stay in place */
   z-index: 1;
   /* Sit on top */
-  padding-top: 100px;
+  padding-top: 200px;
   /* Location of the box */
   left: 0;
   top: 0;
@@ -125,8 +127,8 @@ body {
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
+  background-color: #5c7cb8;
+  color: rgba(255, 255, 255, 0.574);
 }
 
 .modal-body {
@@ -135,8 +137,8 @@ body {
 
 .modal-footer {
   padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
+  background-color: #5c7cb8;
+  color: rgba(255, 255, 255, 0.574);
 }
 .pagination {
   margin-top: 20px;
@@ -144,7 +146,7 @@ body {
 }
 
 .pagination button {
-  background-color: #4CAF50;
+  background-color: #5c7cb8;
   color: white;
   padding: 8px 16px;
   border: none;
@@ -153,9 +155,9 @@ body {
 }
 
 .pagination button.active {
-  background-color: #45a049;
+  background-color: #5c7cb8;
 }
 
 .pagination button:hover:not(.active) {
-  background-color: #2c5b2e;
+  background-color: #081a3c;
 }
