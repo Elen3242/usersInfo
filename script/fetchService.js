@@ -21,3 +21,9 @@ const randomuserAPI = new FetchService(API_USERS);
 export {
     randomuserAPI
 }
+
+class Fetch {
+    constructor(name) {
+        this.name = name 
+    }
+}

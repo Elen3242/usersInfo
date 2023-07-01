@@ -103,12 +103,12 @@ const searchFunctional = () => {
       for (const users of usersName) {
           let name = users.textContent.toLowerCase(); 
           if (name.includes(searchElements)) { 
-              users.style.display = "block"; 
+              // users.style.display = "block"; 
               } else {
               users.style.display = "none"; 
           }
       }
   });
 };
-
+//addeventListeneer
 searchInput.addEventListener("keyup", searchFunctional);
